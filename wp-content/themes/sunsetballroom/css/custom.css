@@ -1,0 +1,932 @@
+body { font-family: "athelas",serif; overflow-x: hidden; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 1;
+    color: inherit;
+ 
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+
+
+
+/***********************************************/
+
+.top_bar,
+.textwidget,
+.navbar,
+header .navbar-collapse,
+.sub-menu-toggle i,
+.sub-menu{transition: all 0.4s ease-in-out;}
+
+
+/***********************************************/
+
+
+h1:not(.site-title):before, h2:before { content: ''; display: none !important;  }
+
+.top_bar { position: fixed; width: 100%; padding: 20px 0 0; z-index: 2; }
+.head-logo-icon-img { margin: 10px 0 0;  }
+
+.header-social { text-align: right; font-family: "mrs-eaves-roman-petite-caps",sans-serif; font-size: 24px; }
+
+.text-number { color: #FFF; display: inline-block;  margin-right: 12px;  }
+.text-number a { color: #FFF;  }
+.text-number a:hover { color: #FFF;  }
+
+.social-icon-img { display: inline-block;   }
+.social-icon-img a { margin-left: 6px;  }
+
+
+.about_txt h1  { font-size: 16px; color: #383838; font-family: "athelas",serif; text-align: center;
+    line-height: 28px; background: url(images/ribbon.png) no-repeat top center; padding: 64px 0 104px;      margin-top: 63px;  } 
+/*.about_txt h1:after { content: ''; background: url(images/ribbon.png) no-repeat center center; width: 100%; height: 18px;
+ display: block;   }
+
+ .about_txt h1:before { content: ''; background: url(images/ribbon.png) no-repeat center center; width: 100%; height: 18px;
+ display: block;   }
+*/
+.main_slider { width: 100%; padding-left: 60px; padding-right: 60px; position: absolute;   bottom: 0;   margin: 0 auto;   left: 0;   right: 0;
+    text-align: center;} 
+.carousel-indicators {bottom: 130px; z-index: 1;}
+.carousel-indicators li { width: 15px; height: 15px; border-radius: 50%;}
+header .textwidget {width: auto;float: right;}
+header .navbar{padding-left: 60px; padding-right: 60px;}
+header .collapse.navbar-collapse{display: block !important;}
+
+.menu-header-menu-container { display: block;     text-align: right;    width: 100%;  }
+header .navbar-collapse li { list-style: none; display: inline-block; text-decoration: none;  }
+header .navbar-collapse li a { font-family: "mrs-eaves-roman-petite-caps",sans-serif; font-size: 24px; color: #FFF;  padding: 0 30px ; }
+header .navbar-collapse li a:hover { text-decoration: none; color: #ff6e61;  }
+header .navbar-collapse li.current_page_item a { color: #ff6e61;   }
+
+header .navbar-collapse li:last-child { margin-right: -30px;   }
+header .navbar-nav { float: right;  width: 100%; justify-content: flex-end; text-align: right;}
+
+.top_bar.fixed{padding-top: 0;}
+.top_bar.fixed .navbar{background: #fff;}
+header.fixed .navbar-collapse li a,
+header.fixed .text-number a,
+header.fixed .text-number a,
+header.fixed .social-icon-img .fab{color: #000;}
+
+header.fixed .navbar-collapse li a:hover,
+header.fixed .text-number a:hover,
+.text-number a:hover,
+header.fixed .social-icon-img .fab:hover,
+.social-icon-img .fab:hover,
+#text-2 ul li a:hover{color: #ff6e61;}
+
+
+
+header .navbar-brand .image-2,
+header.fixed .navbar-brand .image-1{display: none;}
+header.fixed .navbar-brand .image-2,
+header .navbar-brand .image-1{display: block;}
+
+
+ .wide_section {    margin-left: calc(-50vw + 50% - 0px);    width: 100vw; display: flex; margin-bottom: 20px; }
+ .wide_section .full-pic-padd0 { padding: 0;  }
+
+.bg_gray_left { background: #ededed; border-right: 20px solid #FFF;  }
+.bg_gray_right { background: #ededed;  border-left: 20px solid #FFF;  }
+ 
+
+ .Left-content-sec {    position: relative;    top: 50%;    transform: translateY(-50%);     font-size: 14px;
+    line-height: 28px;     margin: 0 34px 0 58px;  }
+
+.left-content-sec {    position: relative;    top: 50%;    transform: translateY(-50%);     font-size: 14px;
+    line-height: 28px;     margin: 0 64px 0 48px;  }
+
+
+
+.testimonial-wrapper { border:1px solid #020202; position: relative;}
+
+.testimonial-wrapper:after {content: '';   position: absolute;   background: url(images/bquotes_left.png) no-repeat 0 0; width: 130px; height: 120px; top: -34px; left: -30px; z-index: 11; background-size: contain;} 
+.testimonial-wrapper:before { content: ''; position: absolute; background: url(images/bquotes_right.png) no-repeat 0 0;
+width: 130px;    height: 120px; bottom: -30px;    right: -70px; z-index: 11; background-size: contain;}
+
+.testimonial_title {}
+.testimonial_title h2 { font-size: 42px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif; padding: 44px 0 0; }
+
+.testimonial_txt { text-align: center;  }
+.testimonial_txt p { font-size: 16px; font-family: "athelas",serif; line-height: 29px;      padding: 0 14px; }
+.testimonial_txt  strong { font-size: 24px;  padding: 0 0 12px; font-size: 24px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif; }
+.testimonial_txt  strong img { margin-left: 14px;  }
+
+
+.container_max { max-width: 1600px; margin: 0 auto;  }
+
+.carousel .img-fluid{width: 100%;}
+.carousel {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quote-carousel  
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -80px;
+  background: url(images/bquotes_arr_left.png) no-repeat top right;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -80px !important;
+ background: url(images/bquotes_arr_right.png) no-repeat top left;
+
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+ 
+
+.pos_title { position: relative;     }
+.overlay { position: absolute; height: 100%; width: 100%; top: 0; left: 0; padding: 60px 40px;}
+
+.overlayin { background-color: rgba(0, 0, 0, 0.59); position: relative; width: 100%;  top: 0; left: 0; text-align: center; color: #FFF;
+  height: 100%; display: flex; justify-content: center; align-items: center;}
+
+.overlayin h2 {  font-size: 22px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;   }
+.overlayin p {  font-size: 40px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;  }
+.overlayin a,
+.event_pos a,
+.send-btn,
+.inner-development a,
+.Left-content-sec a{text-align: center;  border:1px solid transparent;  font-size: 22px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif; min-width: 212px; background: #ff6e61;color: #FFF; display: inline-block;  padding: 10px 0; }
+
+.overlayin a:hover,
+.event_pos a:hover,
+.send-btn:hover,
+.inner-development a:hover,
+.Left-content-sec a:hover{ color: #FF6E61; background: #EDEDED; text-decoration: none; border:1px solid; }
+.send-btn{margin-top: 48px;}
+
+.Left-content-sec a{margin-top: 20px;}
+
+.touch_social {  text-align: center;  }
+.touch_social h2 { color: #ff6e61; font-size: 30px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;  }
+.touch_social ul {padding-left: 0;}
+.touch_social ul li { display: inline-block; list-style: none;  }
+
+
+.black_footer { background: #000;}
+
+
+.about_contact { background: url(images/ribbion.png) no-repeat -400px bottom #eae0df;     background-size: 70%; }
+
+.about_contact h2 { font-size: 30px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;  }
+
+.about_contact-title { text-align: center;   }
+.about_contact-title p, .contact-sub-head { font-size: 18px; line-height: 30px;     font-family: "athelas",serif;  }
+.about_contact-title p span, .contact-sub-head span {  display: block;  }
+
+.left-sec span { padding: 0 10px 0 50px; display: block; }
+.left-sec input { width: 100%; text-align: center; font-size: 16px; line-height: 24px; color: #383838;   }
+
+.left-right {  }
+.left-right span { padding: 0 50px 0 10px; display: block; }
+.left-right input { width: 100%; text-align: center; font-size: 16px; line-height: 24px; color: #383838;  }
+.left-right textarea { width: 100%; text-align: center; font-size: 16px; line-height: 24px; color: #383838; 
+resize: none; height: 101px;  }
+.left-right input[type=date] { width: 100%; text-align: center; font-size: 16px; line-height: 24px; color: #383838;   }
+
+
+/*.about_contact input[type=submit] { width: 100%;   }*/
+
+.Event-information-full-banner { position: relative;  }
+.event_pos { position: absolute; top: 50%;     transform: translateY(-50%); left: 0; right: 0; margin: 0 auto; width: 100%; color: #FFF; text-align: center;  }
+
+.event-full-banner { position: relative;  }
+.event-full-banner:after { content: ''; 
+  position: absolute; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0, 0, 0, 0.48)  }
+ 
+
+ .about_contact input::placeholder {
+  color: #383838;
+  opacity: 1; /* Firefox */
+} 
+
+.about_contact input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #383838;
+}
+
+.about_contact input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #383838;} 
+ 
+form p { text-align: center; margin-bottom: 0;  }
+
+.testimonial-wrapper { margin-top: 120px; margin-bottom: 100px;  }
+
+.mid_fea_img { display: table; width: 100%;  height: 160px; position: relative;  }
+.mid_fea_img img {     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+ 
+ 
+
+
+.main_slider p { font-size: 36px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif; color: #FFF; margin: 20px 0 240px;  }
+
+.slide_caption { font-size: 36px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif; color: #FFF;
+position: absolute; left: 60px; bottom: 0; padding-bottom: 12px;  }
+.scrool_mouse { margin-bottom: 70px; display: inline-block; position: absolute; bottom: 0px; left: 15%; right: 15%;}  
+ 
+ 
+ 
+.autor-img { position: relative; text-align: center; }  
+.autor-img .img-responsive { display: inline-block; }  
+
+
+.middle_txt { position: absolute; left: 0; right: 0; margin: 0 auto; top: 34%; transform: translateY(50%);
+color: #FFF; font-family: "mrs-eaves-roman-petite-caps",sans-serif; font-size: 66px;   }
+
+/*-----------homepage css start-----------*/
+
+.overlayin > img {
+  height: 70px;
+  width: 70px;
+}
+.overlayin h4 {
+  font-size: 24px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  padding: 25px 0;
+}
+.overlayin h2 {
+  font-size: 38px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  padding-bottom: 36px;
+}
+.overlayin{padding: 30px 0;}
+.get_touch_social_section {
+  padding: 100px 0;
+}
+.page_head_section h2 {
+  color: #ff6e61;
+  font-size: 31px;
+  padding-bottom: 15px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.touch_social ul li{margin: 10px;}
+.touch_social ul{margin: 0;}
+.event-title {
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.event-inner {
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  font-size: 24px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.get-social-with-us-main {
+	background: #eae0df;
+	padding: 45px 0;
+	background: url(images/ribbion.png) no-repeat -220px bottom #eae0df;
+	background-size: 40%;
+}
+/*.get-social-with-us-main {
+  background: #eae0df;
+  padding: 45px 0;
+  background: url(images/ribbion.png) no-repeat -400px bottom #eae0df;     background-size: 70%;
+}*/
+.get-social-title {
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.page_section_head {
+  padding-bottom: 45px;
+}
+.left-sec input{
+  height: 45px;
+  border: medium none;
+}
+.left-right input{
+  height: 45px;
+  border: medium none;
+}
+.left-right textarea{
+  border: none;
+  padding-top: 15px;
+}
+
+.left-right textarea::placeholder,
+.left-right input::placeholder,
+.left-sec input::placeholder {
+  color: #383838;
+  opacity: 1;
+}
+
+#text-2 ul {
+  margin: 0;
+  padding: 0;
+}
+#text-2 ul li {
+  display: inline-block;
+  list-style: outside none none;
+  padding-right: 40px;
+}
+#text-2 ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.black_footer{padding: 20px 0;}
+.text-number a {
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.social-icon-img a {
+  text-decoration: none;
+}
+/*-----------homepage css end--------------*/
+
+
+/*-----------Wedding package css start------*/
+ .wedding-full-image img {
+  max-width: 100%;
+ }
+ .gray-bg {
+  background: #ededed none repeat scroll 0 0;
+  /*padding: 140px 0;*/
+}
+.inner-development {
+  text-align: center;
+  width: 100%;
+}
+.margin-bottom-sec {
+  margin-bottom: 20px;
+}
+.inner-development h2 {
+  font-size: 48px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  padding-bottom: 50px;
+}
+
+/*-----------Wedding package css end--------*/
+
+/*-----------single wedding package css start----------*/
+ .autor-img .img-responsive{width: 100%;}
+ .single_wedding_package {
+  margin-top: 60px;
+}
+.price-title {
+  color: #ff6e61;
+  font-size: 48px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+  padding-bottom: 40px;
+}
+
+.amount-inner{
+  font-size: 21px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.day-inner {
+  font-size: 21px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.cocktail-hour-title {
+  color: #ff6e61;
+  font-size: 36px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.cocktail-hour-title span { display: block; font-size: 21px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+font-size: 21px; color: #000;   }
+
+.cocktail-hour-title:after {content: ''; width: 90px; height: 2px;display: inline-block;background: #ff6e61;}
+
+.hour-content-inner {   font-size: 21px; color: #383838; }
+
+.wedding-data-inner { text-align: right;  }
+
+
+.horsd_oeuvers-main-sec { text-align: center;  }
+
+.oeuvers-title {
+  color: #ff6e61;
+  font-size: 36px;
+  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.oeuvers-title span { display: block; font-size: 21px;  font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+font-size: 21px; color: #000;   }
+
+.oeuvers-title:after {content: ''; width: 90px; height: 2px;display: inline-block;background: #ff6e61;}
+
+.entry-content { font-size: 18px; color: #383838;  }
+
+/*-----------single wedding package css end------------*/
+
+/*-----------contact page css start--------------------*/
+#contact_section {
+    padding: 70px 0 100px;
+}
+.full-map-sec {
+    padding-bottom: 100px;
+}
+#contact_section .section_title {
+    font-size: 48px;
+    font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+    padding-bottom: 40px;
+}
+.section_form input {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "athelas",serif;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+.section_form textarea {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "athelas",serif;
+    padding-top: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.section_form textarea::placeholder,
+.section_form input::placeholder{
+  color: #383838;
+  opacity: 1;
+}
+.section_form #send {
+    max-width: 212px;
+    padding: 0px;
+}
+
+.section_address .addr_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.section_address .addr_list li {
+    font-size: 18px;
+    font-family: "athelas",serif;
+}
+.section_address .addr_list li .phone {
+    font-size: 18px;
+    color: #212529;
+    font-family: "athelas",serif;
+    text-decoration: none;
+}
+.phone_padd {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section_address .addr_list .nancy_padd {
+    font-size: 24px;
+    font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+}
+.section_address .addr_list li .email {
+    font-size: 18px;
+    color: #212529;
+    text-decoration: none;
+    font-family: "athelas",serif;
+}
+/*-----------contact page css end----------------------*/
+
+/*-----------thanks page css start---------------------*/
+#thanks_section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+    position: relative;
+    background-attachment: scroll !important;
+    background-position: top center !important;
+}
+.thanks-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#thanks_section h1 {color: #FFF; font-family: "mrs-eaves-roman-petite-caps",sans-serif; font-size: 66px;}
+#thanks_section h6 {
+    font-size: 36px;
+    color: #fff;
+    font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+#thanks_section .button {
+    font-size: 24px;
+    background: #ff6e61;
+    color: #fff;
+    font-family: "mrs-eaves-roman-petite-caps",sans-serif;
+    text-decoration: none;
+    width: 212px;
+    padding: 6px 0px;
+}
+.screen-reader-response {
+    display: none;
+}
+/*-----------thanks page css end-----------------------*/
+
+
+.entry-content { font-size: 16px; color: #383838; font-family: "athelas",serif; text-align: left;
+    line-height: 28px; background: url(images/ribbon.png) no-repeat top center; padding: 64px 70px 104px;      margin-top: 63px; }
+
+.entry-content h2 { font-size: 18px; margin-bottom: 10px;  } 
+.entry-content p { font-size: 18px; margin-bottom: 38px;  } 
+.entry-content span { font-size: 18px; margin-bottom: 40px;     display: inline-block;  } 
+
+.entry-footer { display: none;  }
+
+
+.site-footer{padding-left: 60px; padding-right: 60px;}
+.event-information-main .event-full-banner img{width: 100%; min-width: 900px;}
+.Left-content-sec p{font-size: 16px;}
+.testimonial-wrapper .carousel-item {padding: 20px 160px;}
+.testimonial-wrapper .carousel-control-next-icon{background-image: url(../images/arrow.png); background-position: center; background-repeat: no-repeat;}
+.testimonial-wrapper .carousel-control-prev-icon{background-image: url(../images/arrow.png); background-position: center; transform: rotate(180deg); background-repeat: no-repeat;}
+.carousel-control-next-icon, .carousel-control-prev-icon{height: 38px;}
+.testimonial-wrapper h2 {width: 100%;text-align: center;font-family: "mrs-eaves-roman-petite-caps",sans-serif;	font-size: 42px;
+	margin-bottom: 30px; margin-top: 50px;}
+.right-full-pic-inner img {	width: 100%;}
+.wedding-pack-main{margin-bottom: 100px;}
+.container_max{width: 100%;}
+.local-attract h2 {font-size: 48px;	text-align: center; font-family: "mrs-eaves-roman-petite-caps",sans-serif;	padding-bottom: 50px;color: #ff6e61;}
+.local-attract .Left-content-sec { margin: 0 100px 0 100px;}
+.social-icon-img .fab {width: 25px;height: 25px;border-radius: 50%;	border: 1px solid;	line-height: 25px;	text-align: center;	font-size: 14px;
+	color: #fff;}
+
+.local-attract .bg_gray_left { border: 15px solid #FFF !important; border-top: 0 !important; border-bottom: 0px !important;}
+.local-attract .wide_section .full-pic-padd0{padding-right: 15px; padding-left: 15px;}
+.our-executive-chef-sec-main.local-attract {margin-bottom: 30px;}
+.Left-content-sec.br-none-md strong{width: 100%; display: table; font-family: "mrs-eaves-roman-petite-caps",sans-serif; font-size: 18px;}
+.Left-content-sec.br-none-md strong{margin-top: 20px;}
+.Left-content-sec.br-none-md strong:first-child{margin-top: 0px;}
+.cocktail-hour-title,
+.chafing-title,
+.course-sub-title,
+.salad-title,
+.platters-title,
+.oeuvers-title{ margin-bottom: 20px; margin-top: 30px; display: table; width: 100%;}
+.cocktail-hour-title,
+.platters-title,
+.course-sub-title,
+.chafing-title,
+.oeuvers-title{position: relative;}
+.chafing-title::after,
+.platters-title::after,
+.course-sub-title::after,
+.cocktail-hour-title::after,
+.oeuvers-title:after{ content: ''; width: 200px; height: 2px; display: inline-block; background: #ff6e61; position: absolute;
+  left: 0; right: 0; margin: auto; bottom: -12px;}
+
+.page404 .col-md-12{height: calc(100vh - 125px);}
+.page404 .row .col-lg-4{background:#ff6e61;}
+.page404 .row .col-lg-8{background:#eae0df;}
+.page404 .row .col-lg-8 img{width: 100%;}
+.page404 .page-content{padding: 50px 50px 0;}
+.back-to-home{background: #ff6e61 none repeat scroll 0 0;border: 1px solid #fd6e60;color: #fff;font-size: 24px;padding: 10px 25px;
+font-family: "mrs-eaves-roman-petite-caps",sans-serif;font-weight: 400; margin:30px auto 0; display: table;}
+.main-gallery-div .nav.panel-tabs { width: auto; margin: 50px auto; text-align: center; display: table;}
+.main-gallery-div .nav.panel-tabs li {width: auto; display: inline-block; padding: 0 20px;  }
+.main-gallery-div .nav.panel-tabs li a.active{color: #ff6e61;}
+.main-gallery-div .nav.panel-tabs li  a{font-family: "mrs-eaves-roman-petite-caps",sans-serif;font-size: 28px;font-weight: 400; color: #000;}
+.main-gallery-div .nav.panel-tabs li:first-child{border-right:1px solid #999;}
+.main-gallery-div .tab-content ul{padding: 0; width: auto; margin-right: -7px; list-style: none; margin-left:-7px;}
+.main-gallery-div .tab-content ul li{display: inline-block; position: relative; border:none; padding: 10px; width: 33.33%; border-radius: 0; margin: 0; float: left;}
+.main-gallery-div .tab-content ul li img{padding: 0; border:0; width: 100%; border-radius: 0;}
+.main-gallery-div .container-fluid{padding-right: 0; padding-left: 0;}
+
+.pagenation-div .page-numbers{margin-top: 50px; margin-bottom: 50px;}
+.pagenation-div .page-numbers{height: 40px; width: 40px; line-height: 40px; font-size: 22px; color: #000; text-align: center; font-size: 20px;display: inline-block;}
+.pagenation-div .page-numbers.current{background:#000; color: #fff;}
+
+.our-person-special-thanks .prices-items-sec { width: 100%; display: block; padding: 50px; border: 1px solid #000; margin: 50px 0; text-align: center;}
+.our-person-special-thanks h4 { font-family: "mrs-eaves-roman-petite-caps",sans-serif;  font-size: 48px; font-weight: 400;padding-bottom: 30px;}
+.prices-items-sec ul { width: auto; padding: 0;  text-align: center;  margin: 0 auto;  display: table;}
+.prices-items-sec ul li { width: auto; display: block; text-align: left;}
+
+#image-gallery .modal-dialog{top: 67px;}
+.video-list .modal-content,
+.video-list .modal-body{border: 0; border-radius: 0; padding: 0;}
+.video-list .modal-body button{position: absolute; top: 50%; transform: translate(0 ,-50%); transform: translate(0 ,-50%); background: transparent; border:0; font-size: 40px; color: #000; width: 50px; height: 50px; line-height: 50px; text-align: center;}
+#image-gallery .modal-body button.previ{left: 0px; }
+#image-gallery .modal-body button.next{right: 0px; }
+.video-list button.close{ top: -30px; right: -26px;  opacity: 1; transform: inherit; -webkit-transform: inherit;}
+
+header .container-fluid{padding-right: 0; padding-left: 0;}
+header .navbar-collapse li{position: relative;}
+header .navbar-collapse li.active-sub-menu a{color: #ff6e61; z-index: 1;}
+header .navbar-collapse li ul.sub-menu:after{position: absolute; left: 0; right: 0; margin: 0 auto; top: 36px; content: ''; height: 2px; background:#000; width: 120px; }
+header .navbar-collapse li a{position: relative; z-index: 1}
+header .navbar-collapse li ul.sub-menu { display: none; position: absolute; width: 100%; top: 0; right: 0; background: rgba(255,255,255,0.8); padding: 38px 10px 0; }
+header .navbar-collapse li:hover ul.sub-menu { display: block;}
+header .navbar-collapse li ul.sub-menu a{ color: #000; font-size: 18px; padding: 5px 0; width: 100%; text-align: center;line-height: 18px; float: left;}
+header .navbar-collapse li ul.sub-menu a:hover {color: #ff6e61;  }
+header .navbar-collapse li ul.sub-menu li{width: 100%; float: left;}
+.Event-information-full-banner {   position: relative;   overflow: hidden;   width: 100%;}
+.wedding_package_wrapper .row{margin-left: 0; margin-right: 0;}
+.sub-menu-toggle{display: none;}
+.row.pagenation-div{margin-right: 0;padding-left: 0;}
+.sub-menu-toggle.show-menu i{transform: rotate(-90deg);}
+span.full-video{ position: absolute; top: 50%; left: 50%; font-size: 60px; color: #fff; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%);}
+.video-list .modal-body iframe{width: 100%; margin-bottom: -7px;}
+.video-list .modal{top: 90px;}
+.testimonial-wrapper .carousel-item strong { width: 100%; display: table; margin-top: 20px;}
+.testimonial-wrapper .carousel-control-next, .carousel-control-prev { top: -80px;}
+.testimonial-wrapper .carousel-item strong a{margin-left: 20px;}
+.price_list_social{margin-top: 50px;}
+.hour-content-inner { font-size: 19px; color: #383838; margin-top: 20px;  display: inline-block;}
+.wedding-price-list-ul ul { list-style: none; text-align: center; padding: 0; margin: 0 auto; display: table; width: 600px;}
+.wedding-price-list-ul ul li{ font-size: 24px; line-height: 24px; text-align: center; padding: 0 20px; font-family: "mrs-eaves-roman-petite-caps",sans-serif; width: 600px; margin: 0 auto; position: relative; float: left;}
+.wedding-price-list-ul ul li .day_span{float: left; text-align: left;}
+.wedding-price-list-ul ul li .price_span{float: right; text-align: left;}
+.price-in{width: 80%; margin: 20 auto;}
+.author_name { position: absolute; bottom: 14px; right: 20px; color: #fff;}
+.author_name span { text-shadow: 0 0 3px #000;  display: table;  float: left;  width: auto;}
+.fancybox-skin{padding: 0 !important;}
+.fancybox-prev span{background: url(../images/arrow.png) !important; background-repeat: no-repeat !important; background-size: contain !important; transform: rotate(-180deg); -webkit-transform: rotate(-180deg);}
+.fancybox-close{background: url(../images/close.png) !important; background-repeat: no-repeat !important; background-size: contain !important;}
+.fancybox-next span{background: url(../images/arrow.png) !important; background-repeat: no-repeat !important; background-size: contain !important;}
+.fancybox-title.fancybox-title-float-wrap { bottom: 0 !important; right: 9% !important; margin-bottom: 9px; font-size: 16px;}
+.fancybox-title.fancybox-title-float-wrap .child { background: transparent !important; padding: 0 !important;}
+.fancybox-close { top: 10px !important; right: 10px !important; width: 16px !important; height: 16px !important;}
+.autor-img::after { position: absolute; top: 0; left: 0; content: ''; width: 100%; height: 100%; background: rgba(00,00,00,0.3);}
+.autor-img h1{z-index: 1;}
+.our-executive-chef-sec-main .bg_gray_left{border-left: 20px solid #FFF;}
+
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder  {color:transparent;}
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder   {color:transparent;}
+input:-moz-placeholder,
+textarea:-moz-placeholder   {color:transparent;}
+
+
+.local-attract .Left-content-sec p { font-size: 16px; width: auto; margin: 0 auto; display: table;}
+.page404 .page-content img { max-width: 100%;}
+.carousel-control-next, .carousel-control-prev{opacity: 1;}
+.section_form br,
+.get-social-sec br{display: none;}
+.section_form .invalid .wpcf7-not-valid-tip,
+.get-social-sec .invalid .wpcf7-not-valid-tip{color: #ff6e61;}
+
+.get-social-sec input,
+.get-social-sec textarea{margin-top: 10px !important; border-radius: 0;}
+.get-social-sec .send-btn{margin-top: 48px !important;}
+
+
+/**
+  MEDIA QUERIES
+*/
+@media (max-width:1199px) {
+.overlayin h2 { font-size: 30px;  padding-bottom: 18px; }
+.overlayin a{min-width:inherit; padding: 10px 20px;}
+.Left-content-sec.br-none-md br{display: none;}
+.local-attract h2{padding-bottom:20px; font-size: 38px; }
+.local-attract .Left-content-sec { margin: 0 34px 0 30px;}
+.price_list-inner .col-4{width: -webkit-box-flex: 0;-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+
+} 
+@media (max-width:991px) {
+.navbar-toggler { position: absolute;right: 60px;top: 16px;}
+header .collapse.navbar-collapse{display: block !important;}
+header .navbar-collapse { position: absolute;  right: -280px;  width: 280px; padding-right: 60px; background: #fff; display: none !important; height: 100vh; top: -20px; padding-top: 80px;}
+header .navbar-collapse.collapsing,
+header .collapse.navbar-collapse.show{display: block !important; right: 0;}
+.top_bar.fixed .navbar-collapse{top: 0;}
+header .navbar-collapse li{margin-right: 0;}
+header .navbar-collapse li a{color: #000 !important;}
+header .navbar-collapse li a:hover{color: #ff6e61!important;}
+header .widget.widget_text{margin-right: 100px;}
+.navbar-toggler {background-color: #fff;border: 1px solid #fff;}
+.top_bar.fixed .textwidget{display: block;}
+.our.service-sec-main .row .col-lg-4 + .col-lg-4 {margin-bottom: 30px;}
+.get_touch_social_section{padding: 50px 0; margin-top: -30px;}
+.left-right span,
+.left-sec span{padding: 0;}
+.site-footer .col-lg-6{text-align: center !important;}
+.site-footer .widget.widget_text{margin-top: 10px;}
+.main_slider p{margin-top: 0; margin-bottom: 176px;}
+.main_slider img.slider-logo{width: 200px;}
+.Left-content-sec {	margin: 10px 60px;	display: table;}
+.Left-content-sec a{width: auto;display: table;margin-top: 10px;}
+.testimonial-wrapper .carousel-item {padding: 20px 80px;}
+.inner-development h2{padding-bottom: 20px;}
+.inner-development {padding: 5px 0 30px;}
+.wedding-pack-main{margin-bottom: 50px;}
+header .navbar-collapse li a:hover{color: #ff6e61 !important;}
+.local-attract .Left-content-sec { margin: 0; padding: 30px; text-align: center; width: 100%;}
+.bg_gray_left{border:0 !important;}
+.our-executive-chef-sec-main .wide_section ,
+.attraction-sec-main .wide_section .row{margin-right: 0; margin-left: 0;}
+.wide_section{width: 100%; margin: 0;}
+.sub-menu-toggle { display: block; float: right; height: 35px; width: 30px; line-height: 42px; text-align: center;}
+header .navbar-collapse li ul.sub-menu { display: block; position: relative; width: 100%; top: auto; right: auto; background: #fff;
+  padding: 0; height: 0; overflow: hidden;}
+header .navbar-collapse li ul.sub-menu.show-menu{height: 100%;}
+header .navbar-collapse li ul.sub-menu a { font-size: 18px;}
+.price-in{width: 100%;}
+.price-in br{display: none;}
+.video-list .modal-body iframe { height: 300px;}
+header .navbar-collapse li ul.sub-menu a,
+header .navbar-collapse li a{text-align: left; padding: 5px 15px}
+header .navbar-collapse li a{float: left;font-size: 25px;}
+header .navbar-collapse li ul.sub-menu::after{display: none;}
+header .navbar-collapse li:last-child { margin-right: 0px;}
+.wedding-pack-main .wedding-full-image{margin-left: -15px; margin-right: -15px;}
+
+}
+
+
+
+@media (max-width:767px) {
+.main_slider,
+header .navbar{padding-left: 15px; padding-right: 15px;}
+.about_txt h1 {	padding: 30px 0 30px;margin-top: 23px;}
+.our.service-sec-main .pos_title img.img-fluid{width: 100%;}
+.our.service-sec-main .row .col-lg-4{margin-bottom: 30px;}
+.event-inner {	padding-bottom: 30px;}
+.navbar-toggler {right: 15px;}
+.get_touch_social_section{padding: 30px;}
+.top_bar{padding-top: 10px;}
+.event_pos a{padding: 10px 25px;}
+.event-inner{margin-bottom: 0; padding-bottom: 20px;}
+.slide_caption {left: 0;right: 0;}
+.scrool_mouse{display: none;}
+.carousel-indicators {bottom: 40px;}
+.main_slider p {margin: 20px 0 80px; line-height: 30px;}
+header .navbar-collapse{padding-right: 15px;}
+#contact_section .section_title {font-size: 36px;padding-bottom: 15px;}
+.get-in-touch-main .col-md-6 + .col-md-6{margin-top: 30px;}
+#contact_section{padding: 30px 0px}
+.section_form #send{margin-top: 20px; margin-bottom: 0;}
+.full-map-sec,
+.price-title{padding-bottom: 30px;}
+.testimonial-wrapper .carousel-item {padding: 20px 40px;}
+.carousel-control-next, .carousel-control-prev{width: 20px;}
+.testimonial-wrapper h2 {font-size: 30px;margin-bottom: 0px;margin-top: 18px;}
+#quote-carousel{padding: 0; margin: 0;}
+.testimonial-wrapper::after {top: -14px;left: -20px;}
+.testimonial-wrapper::after,
+.testimonial-wrapper::before{width: 48px;height: 49px;background-size: 100%;}
+.testimonial-wrapper::before {bottom: -14px; right: -20px;}
+.Left-content-sec{margin: 15px 15px 0; }
+.wedding-pack-main{margin-bottom: 30px;}
+.inner-development h2,
+.price-title{font-size: 30px;}
+#thanks_section h1{font-size: 30px;}
+#thanks_section h6 {font-size: 20px; padding-bottom: 20px;}
+.local-attract .Left-content-sec { margin: 0; padding: 20px; text-align: center; width: 100%;}
+.local-attract h2 {  padding-bottom: 10px;  font-size: 30px;}
+.cocktail-hour-title, .chafing-title, .course-sub-title, .salad-title, .platters-title, .oeuvers-title {  margin-bottom: 20px;    margin-top: 10px; display: table; width: 100%;}
+.single_wedding_package{margin-top: 20px;}
+.wedding-price-list-ul ul,
+.wedding-price-list-ul ul li{width: 100%; text-align: center; font-size: 20px;line-height: 20px;}
+.wedding-price-list-ul ul li + li{margin-top: 10px;}
+.wedding-price-list-ul ul li .day_span,
+.wedding-price-list-ul ul li .price_span{width: 100%; text-align: center;}
+.hour-content-inner{font-size: 18px; margin-top: 10px;}
+.price-title{padding-bottom: 10px;}
+.page404 .col-md-12 { height: 100%; padding: 50px;}
+.page404 .col-lg-8 .page-content{padding: 0;}
+
+}
+
+@media (max-width:575px) {
+#text-2 ul li{padding-right: 0;}
+.site-footer{padding: 30px 0;}
+.main_slider .slider-logo{display: none;}
+header .widget.widget_text {margin-right: 70px;}
+.middle_txt{font-size: 46px;}
+.phone_padd{padding-top: 10px; padding-bottom: 10px;}
+.carousel-control-next, .carousel-control-prev{display: none;}
+.testimonial-wrapper{margin:30px 15px; width: auto;}
+.testimonial-wrapper .carousel-item{padding: 20px 0;}
+.day-inner,
+.amount-inner,
+.hour-content-inner{font-size: 16px;}
+.oeuvers-title{font-size: 26px;}
+.main-gallery-div .tab-content ul li{width: 100%; padding-left: 5px; padding-right: 5px;}
+.price-title {padding-bottom: 20px;}
+.map_section .row{margin-right: 0; margin-left: 0}
+
+}
+@media (max-width:480px) {
+header .widget.widget_text{display: none;}
+.slide_caption{font-size: 16px;}
+.main_slider p {line-height: 16px;font-size: 24px;}
+.carousel-indicators {bottom: 15px;}
+.main_slider p {margin: 20px 0 60px;}
+.top_bar{padding-top: 0;}
+header .navbar-collapse{top: 0;}
+.navbar-brand img{width: 100px;}
+.navbar-toggler {top: 9px;}
+.overlayin h4{padding: 15px 0;}
+.event-title {font-weight: 400;	line-height: 24px; font-size: 36px;}
+.event-inner{line-height: 20px;}
+.page_section_head{padding-bottom: 0;}
+.get-social-title{margin-bottom: 10px;}
+.wpcf7-form-control.wpcf7-submit.send {	margin-top: 20px;}
+.middle_txt {font-size: 36px;}
+
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
